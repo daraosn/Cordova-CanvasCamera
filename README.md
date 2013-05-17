@@ -12,6 +12,7 @@ It uses *AVCaptureVideoDataOutput* to create a capture session. Each frame is ba
 1. Copy **CanvasCamera.h** and **CanvasCamera.m** to *Plugins* directory inside your PhoneGap project.
 2. Edit your *config.xml* and add **CanvasCamera** into your *Plugins* list.
 3. Copy **CanvasCamera.js** into your *www* directory and add a script tag for it in your *index.html*.
+4. If not already present, add the CoreVideo.framework library in the Build Phases tab of the project
 
 ### How to Use
 ***
